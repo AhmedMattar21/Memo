@@ -17,7 +17,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>SmartNotes</title>
+    <title>MEMO</title>
 
     <meta name="description" content="" />
 
@@ -42,6 +42,7 @@
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="{% static 'assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}" />
 
     <!-- Page CSS -->
 
@@ -58,12 +59,12 @@
     </style>
   </head>
 
-  <body>
+  <body class="dark">
 
     <!-- Navbar -->
     <nav class="navbar navbar-example navbar-expand-lg bg-light" >
         <div class="container-fluid" >
-          <a class="navbar-brand" href="javascript:void(0)" style="color: rgb(159, 159, 241); font-weight: bolder;">SmartNotes</a>
+          <a class="navbar-brand" href="javascript:void(0)" style="color: rgb(159, 159, 241); font-weight: bolder;">MEMO</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -80,7 +81,6 @@
 
             <form onsubmit="return false">
                 
-              <button class="btn btn-outline-primary" type="button">Login</button>
             </form>
           </div>
         </div>
